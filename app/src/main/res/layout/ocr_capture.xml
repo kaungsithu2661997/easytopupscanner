@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+        <com.example.mit.easytopupscanner.ui.camera.CameraSourcePreview
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.mit.easytopupscanner.ui.camera.GraphicOverlay
+                android:id="@+id/graphicOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.example.mit.easytopupscanner.ui.camera.CameraSourcePreview>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/nvas"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:layout_anchorGravity="bottom|end"
+        app:menu="@menu/nav" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/zawgyiid"
+            android:orderInCategory="100"
+            android:title="Zawgyi"
+            app:showAsAction="withText"/>
+
+        <item
+            android:id="@+id/unicode"
+            android:orderInCategory="100"
+            android:title="Unicode"
+            app:showAsAction="withText"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Easy Mobile Card Scanner</string>
+
+    <string name="turn_off_flashlight">FlashLight on</string>
+    <string name="turn_on_flashlight">flashLight off</string>
+    <string name="title_activity_main">Scanner</string>
+    <string name="message">Place a barcode inside the viewfinder rectangle to scan it.</string>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">Error reading text: %1$s</string>
+
+
+
+
+
+
+    <string name="selectsim">Choose Simcard</string>
+    <string name="selectsim_uni">Choose Simcard</string>
+
+
+
+    <string name="facebook_banner">439678849905777_439680223238973</string>
+    <string name="facebook_intertisial">439678849905777_439679973238998</string>
+</resources>

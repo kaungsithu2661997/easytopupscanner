@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f4f2f2"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:textColor="#ffffff"
+        android:layout_margin="5dp"
+        android:text="Choose Sim Card"
+        android:textSize="20dp"
+        android:layout_height="match_parent" />
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/close"
+        android:padding="2dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"/>
+</LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                  >
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_view_one"
+                        android:layout_weight="1"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        card_view:cardBackgroundColor="#FFF"
+                        card_view:cardCornerRadius="15dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="SIM (1)"
+                                android:textColor="#767575"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageone"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:scaleType="fitCenter"
+                            android:padding="5dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/sim_one" />
+                        <TextView
+                            android:id="@+id/sim_one_id"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:text="00redoo"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16dp"
+                            android:gravity="center"
+                            android:layout_marginTop="8dp"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                      </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_view_two"
+                        android:layout_weight="1"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        card_view:cardBackgroundColor="#FFF"
+                        card_view:cardCornerRadius="15dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="SIM (2)"
+                                    android:textColor="#767575"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <ImageButton
+                                android:id="@+id/imagetwo"
+                                android:background="@android:color/transparent"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:scaleType="fitCenter"
+                                android:padding="5dp"
+                                android:src="@drawable/sim_two" />
+                            <TextView
+                                android:id="@+id/sim_two_id"
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:text="Telenor"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16dp"
+                                android:gravity="center"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+    </LinearLayout>

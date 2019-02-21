@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/flash"
+        android:icon="@drawable/ic_flash_off_black_24dp"
+        android:title="Flash OFF" />
+
+    <item
+        android:id="@+id/guide"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="Guide" />
+
+
+</menu>

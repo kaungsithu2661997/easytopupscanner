@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="zawgyi_gridview">
+    <item>ေငြျဖည့္ကဒ္ကုတ္ဖတ္ရန္</item>
+    <item>QR Codeျဖင့္ေငြျဖည့္ရန္ု</item>
+    <item>လက္က်န္ေငြစစ္ရန္</item>
+    <item>ဖုန္းနံပါတ္စစ္ရန္</item>
+</string-array>
+    <string-array name="unicode_gridview">
+        <item>ငွေဖြည့်ကဒ်ကုတ်ဖတ်ရန်</item>
+        <item>QR Codeဖြင့်ငွေဖြည့်ရန်ု</item>
+        <item>လက်ကျန်ငွေစစ်ရန်</item>
+        <item>ဖုန်းနံပါတ်စစ်ရန်</item>
+    </string-array>
+</resources>

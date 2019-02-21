@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/simcard_one"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="USSD(1)" />
+
+    <item
+        android:id="@+id/simcard_two"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="USSD(2)" />
+
+
+</menu>
